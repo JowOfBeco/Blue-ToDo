@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/bluenitostododbserver/databases/BluenitosToDo_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:TodoDBConnectionStrings",
+      "secretStore": null
+    }
+  }
+}

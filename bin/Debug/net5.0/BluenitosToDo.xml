@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BlueToDo</name>
+    </assembly>
+    <members>
+        <member name="M:BlueToDo.Controllers.AuthController.Register(BlueToDo.Models.Users)">
+            <summary>
+            Endpoint responsável pela criação de um novo usuário no banco de dados. Inserir no Json (username, email e passwordhash)
+            </summary>
+            <param name="users"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BlueToDo.Controllers.AuthController.Token(BlueToDo.Models.Users)">
+            <summary>
+            Endpoint responsável por gerar o Token. Inserir no Json (email e passwordhash)
+            </summary>
+            <param name="users"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BlueToDo.Controllers.AuthController.Logged">
+            <summary>
+            Endpoint responsável por informar o perfil que está logado em determinada sessão.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BlueToDo.Controllers.TodoController.Create(BlueToDo.Models.TodoModel)">
+            <summary>
+            Endpoint responsável pela criação de uma nova tarefa. Inserir no Json (nome da tarefa, tarefa, prazo para execução e prioridade)
+            </summary>
+            <param name="todoModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BlueToDo.Controllers.TodoController.GetAll">
+            <summary>
+            Endpoint responsável por buscar no banco de tados todas as tarefas criadas pelo usuário que está logado.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BlueToDo.Controllers.TodoController.GetByPriority">
+            <summary>
+            Endpoint responsável por buscar tarefas do usuário logado por ordem de prioridade. Endpoint só lista tarefas com Status false(incompleta) (Alta - Média - Baixa)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BlueToDo.Controllers.TodoController.Get(System.Int32)">
+            <summary>
+            Endpoint responsável por buscar uma tarefa no banco de dados, recebendo o ID como parâmetro da busca.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BlueToDo.Controllers.TodoController.ChangeStatus(System.Int32)">
+            <summary>
+            Endpoint responsável por mudar o Status da tarefa com o ID como parâmetro se o Status for true a tarefa foi concluída.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BlueToDo.Controllers.TodoController.Update(BlueToDo.Models.TodoModel)">
+            <summary>
+            Endpoint responsável por editar as tarefas já cadastradas no banco de dados.
+            </summary>
+            <param name="todoModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BlueToDo.Controllers.TodoController.Delete(System.Int32)">
+            <summary>
+            Endpoint responsável por deletar as tarefas, caso seja desejo do usuário.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

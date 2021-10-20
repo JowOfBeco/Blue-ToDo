@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9+lBmaVJ3EGj+LXNz224lwAAAAACAAAAAAAQZgAAAAEAACAAAAALx7JZO8p5pNAPIoiX8c+e+2kW0nomqcSYNgVja/ZX9gAAAAAOgAAAAAIAACAAAABpsPWe1psaze1besO66hjtc8UFIR8RVlez0z8zUWivg4AAAAAC1Xf8wFRNBhGW0rVOIZPhV2+CLXmU2pW3BDVZ5rwHAFY3jIBBVRTER7k1HEp1DCRlTmR+twWfrZihGC7jH8+d/rZdYUx9Lxd2UUF4Xz2pTGRq5zxBlon7B8yxeTtq9N/vsP0kiXRU4tHLZD3ZF/k46LjfpBrTVRo9NjhohjzdaUAAAACwiNEr/Mv2Jw4uhskGtkf7VdvlscRlxGJfUgM8BoXXUKW6h1abR8G4a/QItbbW+TvxO1BLd4Qn0iYCE3V6ZmeP</EncryptedPassword>
+    <History>True|2021-10-04T13:16:32.2124028Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="BluenitosToDo.Data.TodoContext">
+      <Value>Data Source=tcp:bluenitostododbserver.database.windows.net,1433%3bInitial Catalog=BluenitosToDo_db%3bUser Id=arturnascimento%40bluenitostododbserver%3bPassword=Blue%40123</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
